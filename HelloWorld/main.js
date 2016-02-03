@@ -4,9 +4,9 @@ chrome.app.runtime.onLaunched.addListener(function (launchData){
   var screenWidth = screen.availWidth;
   var screenHeight = screen.availHeight;
   var width = 500;
-  var height= 300;
+  var height= 500;
   // create window
-  chrome.app.window.create("index.html",  {
+  chrome.app.window.create("gitHubList.html",  {
   	id : "myWindow1",
   	outerBounds :{
   		width : width,
