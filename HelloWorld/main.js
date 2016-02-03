@@ -9,7 +9,7 @@ chrome.app.runtime.onLaunched.addListener(function (launchData){
   chrome.app.window.create("index.html",  {
   	id : "myWindow1",
   	outerBounds :{
-  		width : wdith,
+  		width : width,
   		height : height,
         maxWidth : screenWidth,
         maxHeight : screenHeight
